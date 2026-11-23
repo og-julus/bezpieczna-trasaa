@@ -1,0 +1,18 @@
+{
+  "name": "bezpieczna-trasa",
+  "version": "1.0.0",
+  "description": "Wyszukiwarka niebezpiecznych miejsc dla rowerów i UTO na bazie danych z dane.gov.pl",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "fetch-data": "bun run scripts/fetch-data.ts",
+    "test": "bun test",
+    "lint": "bunx biome check ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@biomejs/biome": "^1.9.4"
+  },
+  "license": "MIT"
+}
